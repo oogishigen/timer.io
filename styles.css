@@ -4,7 +4,7 @@ html, body {
   }
   
   .countdown-container {
-    margin: 5rem;
+    margin: 10px;
   }
   
   .time-container {
@@ -12,13 +12,14 @@ html, body {
   }
   
   .time {
-    margin: .2rem;
-    background-color: rgb(182, 253, 255);
-    border-radius: 1rem;
+    margin: 10px;
+    /* background-color: rgb(180, 182, 253, 255); */
+    background-color: orange;
+    border-radius: 20rem;
     padding: 2rem;
   }
   
-  #hour,#min,#sec {
+  #day,#hour,#min,#sec {
     font-size: 3rem;
     margin-right: 1rem;
   }
